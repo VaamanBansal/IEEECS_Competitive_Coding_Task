@@ -13,3 +13,8 @@ class Interval:
         self.intervals = m
     def get_interval(self):
         print(self.intervals)
+I1=Interval()
+I1.add_interval(1,5)
+I1.add_interval(7,10)
+I1.add_interval(2,9)
+I1.get_interval()
